@@ -1,4 +1,5 @@
 import React from 'react';
+import Carousel from './Carousel';
 import './Modal.css';
 
 const Modal = ({ dish, onClose }) => {
@@ -10,7 +11,7 @@ const Modal = ({ dish, onClose }) => {
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <button className="modal-close-btn" onClick={onClose}>&times;</button>
-        <img src={dish.image} alt={dish.name} className="modal-image" />
+        <Carousel images={dish.images} />
         <div className="modal-details">
           <h2 className="modal-name">{dish.name}</h2>
           <p className="modal-description">{dish.description}</p>

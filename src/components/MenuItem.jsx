@@ -4,7 +4,7 @@ import './MenuItem.css';
 const MenuItem = ({ dish, onOpenModal }) => {
   return (
     <div className="menu-item" onClick={() => onOpenModal(dish)}>
-      <img src={dish.image} alt={dish.name} className="menu-item-image" />
+      <img src={dish.images[0]} alt={dish.name} className="menu-item-image" />
       <div className="menu-item-content">
         <h3 className="menu-item-name">{dish.name}</h3>
         <p className="menu-item-description">{dish.description}</p>
