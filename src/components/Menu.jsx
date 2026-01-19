@@ -3,12 +3,12 @@ import { dishes } from '../dishes';
 import MenuItem from './MenuItem';
 import './Menu.css';
 
-const categories = ['All', ...new Set(dishes.map(dish => dish.category))];
+const categories = ['所有類別', ...new Set(dishes.map(dish => dish.category))];
 
 const Menu = ({ onOpenModal }) => {
-  const [selectedCategory, setSelectedCategory] = useState('All');
+  const [selectedCategory, setSelectedCategory] = useState('所有類別');
 
-  const filteredDishes = selectedCategory === 'All'
+  const filteredDishes = selectedCategory === '所有類別'
     ? dishes
     : dishes.filter(dish => dish.category === selectedCategory);
 

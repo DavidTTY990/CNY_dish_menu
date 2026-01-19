@@ -7,7 +7,7 @@ export const dishes = [
     images: [
       "images/dishesImgStock/la-rou/1.jpg"
     ],
-    category: "Main Course"
+    category: "豪華主菜"
   },
   {
     name: "花枝漿",
@@ -18,7 +18,7 @@ export const dishes = [
       "images/dishesImgStock/cuttlefish-paste/2.jpg",
       "images/dishesImgStock/cuttlefish-paste/3.jpg"
     ],
-    category: "Appetizer"
+    category: "開胃小點"
   },
   {
     name: "佛跳牆",
@@ -30,7 +30,7 @@ export const dishes = [
       "images/dishesImgStock/buddha-jumps-over-the-wall/3.jpg",
       "images/dishesImgStock/buddha-jumps-over-the-wall/4.jpg"
     ],
-    category: "Soup"
+    category: "精緻湯品"
   },
   {
     name: "胡椒鴨",
@@ -39,7 +39,7 @@ export const dishes = [
     images: [
       "images/dishesImgStock/pepper-duck/1.jpg"
     ],
-    category: "Main Course"
+    category: "豪華主菜"
   },
   {
     name: "水晶蝦餃",
@@ -48,7 +48,7 @@ export const dishes = [
     images: [
       "images/dishesImgStock/crystal-shrimp-dumpling/1.jpg"
     ],
-    category: "Seafood"
+    category: "開胃小點"
   },
   {
     name: "墨魚蝦餅",
@@ -58,7 +58,7 @@ export const dishes = [
       "images/dishesImgStock/cuttlefish-shrimp-cake/1.jpg",
       "images/dishesImgStock/cuttlefish-shrimp-cake/2.jpg"
     ],
-    category: "Seafood"
+    category: "開胃小點"
   },
   {
     name: "筍香蹄膀",
@@ -68,7 +68,7 @@ export const dishes = [
       "images/dishesImgStock/pork-knuckle-with-bamboo/1.jpg",
       "images/dishesImgStock/pork-knuckle-with-bamboo/2.jpg"
     ],
-    category: "Main Course"
+    category: "豪華主菜"
   },
   {
     name: "麻油猴菇",
@@ -79,7 +79,7 @@ export const dishes = [
       "images/dishesImgStock/sesame-oil-hericium/2.jpg",
       "images/dishesImgStock/sesame-oil-hericium/3.jpg"
     ],
-    category: "Vegetarian"
+    category: "素食美饌"
   },
   {
     name: "橄欖油海苔",
@@ -89,6 +89,6 @@ export const dishes = [
       "images/dishesImgStock/olive-oil-seaweed/1.jpg",
       "images/dishesImgStock/olive-oil-seaweed/2.jpg"
     ],
-    category: "Appetizer"
+    category: "開胃小點"
   }
 ];
