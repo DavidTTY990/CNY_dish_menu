@@ -1,9 +1,9 @@
 import React from 'react';
 import './MenuItem.css';
 
-const MenuItem = ({ dish }) => {
+const MenuItem = ({ dish, onOpenModal }) => {
   return (
-    <div className="menu-item">
+    <div className="menu-item" onClick={() => onOpenModal(dish)}>
       <img src={dish.image} alt={dish.name} className="menu-item-image" />
       <div className="menu-item-content">
         <h3 className="menu-item-name">{dish.name}</h3>

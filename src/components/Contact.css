@@ -1,0 +1,19 @@
+.contact-section {
+  padding: 2rem 1rem;
+  background-color: #2e2e2e;
+  text-align: center;
+  border-top: 3px solid #ffd700;
+  border-bottom: 3px solid #ffd700;
+}
+
+.contact-title {
+  color: #ffd700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-details p {
+  color: #f4f4f4;
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
