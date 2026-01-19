@@ -1,5 +1,5 @@
 
-export const dishes = [
+export const dishesData = [
   {
     name: "Prosperity Toss (Yee Sang)",
     description: "A colorful salad with raw fish slices, shredded vegetables, and a variety of sauces and condiments. A symbol of abundance and prosperity.",
